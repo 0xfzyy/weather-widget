@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: Arial, sans-serif;
+}
+
+.widget-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    width: 270px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.drag-area {
+    cursor: move;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #666;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.weather-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#temperature {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#location {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#description {
+    color: #666;
+}
